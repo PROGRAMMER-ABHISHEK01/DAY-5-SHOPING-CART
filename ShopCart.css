@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poopins",sans-serif;
+    color: black;
+}
+.Cart{
+    width: 350px;
+    height: 96%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow:  -24px 24px 48px #ebdede,
+             24px -24px 48px #eee0e0;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.cart{
+   margin-left: 75px;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.menu{
+    margin-left: 30px;
+}
+ .menu:hover{
+    cursor: pointer;
+}
+.product{
+    width: 300px;
+    height: 40px;
+    background-color: orangered;
+    margin: auto;
+    margin-top: 60px;
+    color: white;
+}
+h4{
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#pro{
+    margin-left: 25px;
+}
+#qan{
+    margin-left: 50px;
+}
+#sub{
+    margin-left: 10px;
+}
+.shirt{
+    margin: 30px;
+}
+#BOY{
+    transition: .5s;
+}
+#BOY:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+button{
+    height: 30px;
+    width: 30px;
+    border: 1px sollid #000;
+    background-color: transparent;
+    border-radius: 2px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 55%;
+}
+#price{
+    position: absolute;
+    margin-left: 130px;
+    font-size: 1em;
+    bottom: 55.5%;
+    transition: .5s;
+}
+#price:hover{
+    cursor: pointer;
+}
+.Sho{
+    margin: 30px;
+}
+#SHO{
+    transition: .5s;
+}
+#SHO:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#one{
+    height: 30px;
+    width: 30px;
+    border: 1px sollid #000;
+    background-color: transparent;
+    border-radius: 2px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 32%;
+}
+#price1{
+    position: absolute;
+    margin-left: 130px;
+    font-size: 1em;
+    bottom: 32.5%;
+    transition: .5s;
+}
+#price1:hover{
+    cursor: pointer;
+}
+.Tro{
+    margin: 30px;
+}
+#TRO{
+    transition: .5s;
+}
+#TRO:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+#two{
+    height: 30px;
+    width: 30px;
+    border: 1px sollid #000;
+    background-color: transparent;
+    border-radius: 2px;
+    margin-left: 60px;
+    position: absolute;
+    bottom: 10%;
+}
+#price2{
+    position: absolute;
+    margin-left: 130px;
+    font-size: 1em;
+    bottom: 10.5%;
+    transition: .5s;
+}
+#price2:hover{
+    cursor: pointer;
+}
+span{
+    background: linear-gradient(43deg, #ee0c88 0%, #fa3909 46%, #0a0a09 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
